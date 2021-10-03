@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEAR DIAIRY</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(29, 11, 29);
+        margin: 0px;
+        padding: 0px;
+        background:url("image2.jfif");
+        height: 1005px;
+        background-repeat: no-repeat;
+    }
+    .left{
+        display: inline-block;
+        /*border: 1px solid rgb(241, 182, 24);*/
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+    .left img{
+        width: 113px;
+        filter: invert(10%);
+
+    }
+    .left div{
+        line-height :19px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 36%;
+        margin: 12px auto; 
+      /*  border: 2px solid rgb(146, 90, 226);*/
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+       /* border: 2px solid rgb(219, 116, 219);*/
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: seashell;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+               text-decoration: underline;
+               color: rgb(109, 122, 136);
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: rgb(17, 33, 34);
+        color: rgb(39, 231, 235);
+        padding: 2px 4px;
+        border: 2px solid rgb(231, 233, 238);
+        border-radius: 3px;
+        font-size: 20px;
+        cursor: auto;
+
+    }
+    .btn :hover{
+        background-color: rgb(10, 68, 70);  
+
+    }
+    .container{
+        text-align: center;
+        border: 2px solid rgb(201, 226, 163);
+        margin: 122px 332px;
+        padding: 2px 2px;
+        width: 33%;
+        border-radius: 2px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 34%;
+        padding: 75px;
+        margin: 11px auto;
+        font-size: 34px;
+        border-radius: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+    }
+
+
+ </style>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="diary.png" alt="">
+            <!--<div>dear diary</div>-->
+           
+        </div>
+ 
+        <!--mid box for NAVBAR-->
+        <div class="mid">
+           
+            <ul class="navbar"> 
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Dear diary</a></li>
+                <li><a href="#">Blog</a></li>
+               </ul>
+        </div>
+        <!--right box for BUTTON-->
+        <div class="right">
+        <button class="btn">call us </button>
+        <button class="btn">Gmail</button>
+        </div>
+        </header>
+        <div class="container" >
+         <h3> Thoughtful With login </h3>
+         <form action="nonreaction.php">
+             <div class="form group">
+                 <input type="text" name=""placeholder="Dear Your Name">
+                 </div>
+             <div class="form group">
+                    <input type="text" name=""placeholder="store your password">
+                    </div>  
+            <div class="form group">
+                        <input type="text" name=""placeholder="your date of existance  ">
+                        </div> 
+             <button class="btn">submit</button>
+        </form>
+       </div>
+        
+</body>
+</html>
